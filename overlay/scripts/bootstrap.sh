@@ -20,6 +20,10 @@
 
 echo "Running bootstrap.sh..."
 
+echo -n "Enter the IP address of the steam cache: "
+read steamcache_ip
+echo steamcache_ip
+
 ## blizzard
 cp /etc/bind/cache/blizzard/template.db.blizzard /etc/bind/cache/blizzard/db.blizzard
 
